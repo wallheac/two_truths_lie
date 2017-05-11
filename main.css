@@ -3,4 +3,36 @@
 
 html {
     font-size: 62.5%; /* 1rem = 10px - use rem */
+    font-family: 'Raleway'
+}
+body{
+  background-color: #191D32;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container{
+  padding: 5%;
+  background-color: white;
+  border-radius: 15px;
+}
+h1{
+  text-align: left;
+}
+button{
+  width: 300px;
+  display: block;
+  padding: 5%;
+  margin: 2%;
+  background-color: white;
+  border-radius: 5px;
+  border: 2px solid #E8D284;
+}
+button:hover{
+  background-color: #E8D284;
+}
+button #next{
+  color: white;
+  bacground-color: blue;
 }
